@@ -62,12 +62,26 @@ nav ul{
     border-radius: 5px;
     
 }
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 
 .banner{
     display: flex;
     justify-content: space-between;
     margin: 0 38px 0 220px;
+}
+.about{
+    border-radius: 10pxsss;
+    padding: 150px 130px;
+    text-align: center;
+    margin-top: 130px;
 }
 .banner-cont{
     /* justify-content: space-between; */
@@ -84,8 +98,46 @@ nav ul{
 }
 
 
+.sec-bg{
+    background-color:#FFF8F3 ;
 
+}
 
 
     /* nav style */
 
+
+
+
+
+    .tit{
+        font-size: 35px;
+        font-weight: bold;
+        color: #181818;
+    }
+    .descip{
+        font-size: 18px;
+        color: #757575;
+    }
+.text-center{
+    text-align: center;
+}
+
+    .title-descip {
+        font-weight:bold
+
+    }
+    .about-items{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .skills-comtainer{
+        display: flex;
+        gap: 24px;
+    }
+    .skill{
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0px 6px 50px 0px black;
+    }
